@@ -1,0 +1,9 @@
+body{
+  background-color: #4f4d57;
+  background-image: url(cloudmountain.jpg);
+  background-size: 100%;
+}
+.hero-unit{
+  margin: 0;
+  padding: 0;
+}
