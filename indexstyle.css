@@ -1,7 +1,8 @@
 body{
   background-color: #4f4d57;
-  background-image: url(cloudmountain.jpg);
+  background-image: url("cloudmountain.jpg") blue;
   background-size: 100%;
+  opacity: 1;
 }
 .hero-unit{
   margin: 0;
