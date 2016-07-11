@@ -13,22 +13,26 @@ body {
   border:5px solid #242424;
   color:#FFF;
   background:url("images/dark1.jpg") top left repeat #242424;
+  transition: background 0.5s ease-in-out;
   background-size: 950px 550px;
 }
 #featured_slide_:hover{
+  transition: background 0.5s ease-in-out;
   background:url("images/dark.jpg");
   background-size: 950px 550px;
 }
 #featured_slide_:hover  .hero_content{
-  font-size: 100px;
+  font-size: 80px;
   font-family: 'Adine';
   color: #fff;
   font-weight: bolder;
+  transition: content 0.5s ease-in-out;
   margin: auto;
   display:block;
 }
 #featured_slide_:hover .hero_bg{
   display:block;
+  transition: background 0.5s ease-in-out;
 }
 .hero_bg{
   margin-top: 300px;
@@ -36,7 +40,7 @@ body {
   margin-right: 0;
   padding: 0;
   display: none;
-  background-color: black;
+  background: black;
   opacity: 0.7;
 }
 .featured_slide_Image{
