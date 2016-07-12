@@ -12,6 +12,9 @@ body{
   background-color:#000;
   font-size:12px;
 }
+.empty{
+  height: 120px;
+}
 .container_12 .grid_4 {
     width: 300px;
 }
@@ -43,35 +46,9 @@ body{
     margin-right: auto;
     width: 960px;
 }
-.fix{
-  background-color:#000;
-}
-.justify{
-  text-align:justify;
-}
-.bold{
-  font-weight:bold;
-}
-.center{
-  text-align:center;
-}
-.right{
-  text-align:right;
-}
-.nostart{
-  margin:0;
-  padding:0;
-  list-style-type:none;
-}
-
 .clear{
   clear:both;
 }
-br.clear{
-  clear:both;
-  margin-top:-15px;
-}
-
 a{
   outline:none;
   text-decoration:none;
@@ -91,7 +68,8 @@ img{
   display:block;
   margin:0;
   padding:0;
-  border:none;}
+  border:none;
+}
 .imgl, .imgr{
   border:1px solid #C7C5C8;
   padding:5px;
@@ -106,22 +84,12 @@ img{
   clear:right;
 }
 
-/* ----------------------------------------------Wrapper------------------------------------- */
-
-div.wrapper{
-  display:block;
-  width:100%;
-  margin:0;
-  text-align:left;
-}
-
 /* ----------------------------------------------Generalise------------------------------------- */
 
 #header,  #container, .gallery, #footer{
   display:block;
-  position:relative;
   width:960px;
-  margin:0 auto;
+  margin:auto;
 }
 
 /* ----------------------------------------------Header------------------------------------- */
@@ -129,6 +97,11 @@ div.wrapper{
 #header{
   padding:30px 0;
   z-index: 5;
+}
+#header{
+  background: black;
+  padding-left: 15%;
+  position: fixed;
 }
 #header .fl_left{
   display:block;
@@ -150,7 +123,6 @@ div.wrapper{
 #header .fl_left p{
   margin-top:5px;
 }
-
 /* ----------------------------------------------Content------------------------------------- */
 
 #container{
@@ -175,14 +147,16 @@ div.wrapper{
 .content1 p{
   font-size: 15px;
   font-style: italic;
-  float: right;
+  float: left;
   display: inline;
+  width: 280px;
 }
 .content2 p{
   font-size: 15px;
   font-style: italic;
-  float: left;
+  float: right;
   display: inline;
+  width: 280px;
 }
 /* ----------------------------------------------Gallery------------------------------------- */
 
@@ -256,10 +230,6 @@ div.wrapper{
   float: right;
 }
 .social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
-	-webkit-transform: scale(1.1) rotate(360deg);
-	-moz-transform: scale(1.1) rotate(360deg);
-	-ms-transform: scale(1.1) rotate(360deg);
-	-o-transform: scale(1.1) rotate(360deg);
 	transform: scale(1.1) rotate(360deg);
 }
 
